@@ -7,6 +7,9 @@ import { LoginComponent } from './pages/login/login.component';
 import { ProduccionComponent } from './pages/produccion/produccion.component';
 import { DistribucionComponent } from './pages/distribucion/distribucion.component';
 import { InformacionComponent } from './pages/informacion/informacion.component';
+import { DocumentacionComponent } from './pages/documentacion/documentacion.component';
+import { DiagramasComponent } from './pages/diagramas/diagramas.component';
+import { ContactosComponent } from './pages/contactos/contactos.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/login' },
@@ -17,7 +20,10 @@ const routes: Routes = [
       {path:'empleados',component:EmpleadosComponent},
       {path:'produccion',component:ProduccionComponent},
       {path:'distribucion',component:DistribucionComponent},
-      {path:'informacion',component:InformacionComponent}
+      {path:'informacion',component:InformacionComponent},
+      {path:'documentacion',component:DocumentacionComponent},
+      {path:'diagramas',component:DiagramasComponent},
+      {path:'contactos',component:ContactosComponent},
     ]
   }
 ];
