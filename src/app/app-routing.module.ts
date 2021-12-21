@@ -11,6 +11,7 @@ import { DocumentacionComponent } from './pages/documentacion/documentacion.comp
 import { DiagramasComponent } from './pages/diagramas/diagramas.component';
 import { ContactosComponent } from './pages/contactos/contactos.component';
 
+
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/login' },
   { path: 'login', component: LoginComponent },
